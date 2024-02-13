@@ -8,7 +8,7 @@ const cors = require('cors');
 app.use(cors());
 
 
-const db = require ('../backend/collections/database');
+const db = require ('./collections/database');
 
 
 const customerRouter = require('./collections/customer');
