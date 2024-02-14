@@ -34,5 +34,5 @@ app.get('/api', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on https://ateashe.onrender.com/api`);
+    console.log(`Server is running on http://localhost:${3001}/api`);
 });
