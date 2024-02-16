@@ -67,7 +67,7 @@ router.get('/api/customers', (req, res) => {
     try {
 
         // Query to fetch customers
-        db.query('SELECT customer_id, fullname, email, username FROM customers', (err, result) =>{
+        db.query('SELECT customer_id, \n fullname, \n email, \n username FROM customers', (err, result) =>{
             
             if(err){
                 console.error('Error fetching customers:', err);
